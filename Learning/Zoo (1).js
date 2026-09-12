@@ -7,6 +7,9 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
+// The question function presents the string to the user and then waits
+// After the user presses Enter, it invokes the callback function
+
 function askAnimal() {
     rl.question('Write In An Animal To Be Added To The Zoo! > ', (Animal) => {
         if (Animal === "Quit") {
