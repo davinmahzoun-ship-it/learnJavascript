@@ -6,7 +6,7 @@ const pokemon = "pikachu";
 
 async function getPokemon(name) {
     try {
-        const response = await fetch("https://pokeapi.co/api/v2/pokemon/andrew");
+        //const response = await fetch("https://pokeapi.co/api/v2/pokemon/" + word);
 
         if (!response.ok) {
             throw new Error("Pokemon not found");
