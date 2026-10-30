@@ -87,8 +87,15 @@ function vote(voter, target) {
 
 function endGame() {
     console.log("The Game Has Ended, Here Are The Results:");
-    
+    const obj = GetPlayerWithMostVotes()
+    // If its a tie, the obj = null
+    if (obj = null) {
+        console.log("It has been a tie! Therefore, the Impostor Has Won!")
+        console.log("The Impostor Was... " + )
+    }
 };
+
+function getImpostorForEndGame() {}
 
 function GetPlayerWithMostVotes() {
     let topName = null
