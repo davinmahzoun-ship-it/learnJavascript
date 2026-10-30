@@ -95,7 +95,17 @@ function endGame() {
     }
 };
 
-function getImpostorForEndGame() {}
+function getImpostorForEndGame() {
+    for (let plr of PlayersJoined) {
+        if (plr.Imposter == false) {
+            //nothing here cuz it need 2 continue :D 
+        } else if (plr.Imposter == true) {
+        
+        } else {
+            console.log("Uhhhhhhhhhhhhhhhhhhh. Idk some kinda error!")
+        };
+    };
+};
 
 function GetPlayerWithMostVotes() {
     let topName = null
