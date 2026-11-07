@@ -6,4 +6,9 @@ GameManager.addPlayer("Donst");
 
 GameManager.startGame()
 
+GameManager.vote("Fob", "Donst")
+GameManager.vote("Donst", "Fob")
+
+GameManager.endGame()
+
 console.log(GameManager.PlayersJoined);

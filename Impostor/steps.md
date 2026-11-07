@@ -1,11 +1,16 @@
 # 1. (next)
 
 Prebuild voting with fakes
-1. Restrict voting until the game starts
+
+Restrict voting until the game starts
+
+#
 
 # 2
 
 Replace fake players with real ones
+
+#
 
 # 3 
 

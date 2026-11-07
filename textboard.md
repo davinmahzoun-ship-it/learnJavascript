@@ -12,3 +12,5 @@ git config user.name "Davin"
 git remote add origin https://github.com/davinmahzoun-ship-it/learnJavascript.git
 
 git push -u origin master
+
+always test after about every or a few lines if it works
