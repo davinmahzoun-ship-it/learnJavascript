@@ -22,8 +22,13 @@ ImpostorChannel.subscribe(async (status, error) => {
                 payload: { message: payload.payload.name + " has joined the game! 🎮" }
             });
         });
+
     } else {
         console.log(error);
         console.log("An Error Has Occurred! Please Read Above!");
     };
 });
+
+// Magazine Publication
+// release
+// announcement 

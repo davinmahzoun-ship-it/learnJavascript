@@ -14,3 +14,7 @@ git remote add origin https://github.com/davinmahzoun-ship-it/learnJavascript.gi
 git push -u origin master
 
 always test after about every or a few lines if it works
+
+npm install -g nodemon
+node serverImposter.js
+nodemon serverImposter.js

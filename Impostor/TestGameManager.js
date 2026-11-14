@@ -1,14 +1,9 @@
 const GameManager = require("./GameManager.js");
 
 GameManager.addPlayer("Fob");
-GameManager.addPlayer("Cob");
 GameManager.addPlayer("Donst");
 
-GameManager.startGame()
+GameManager.startGame("Donst");
 
-GameManager.vote("Fob", "Donst")
-GameManager.vote("Donst", "Fob")
-
-GameManager.endGame()
-
-console.log(GameManager.PlayersJoined);
+GameManager.vote("Fob", "Fob");
+GameManager.vote("Donst", "Fob");
